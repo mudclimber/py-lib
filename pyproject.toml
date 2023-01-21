@@ -28,5 +28,5 @@ dependencies = [
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools]
-py-modules = ["mudclimber_py_lib", "mudclimber_py_lib.*"]
+[tool.setuptools.packages.find]
+where = ["src"]
