@@ -1,0 +1,29 @@
+[project]
+name = "mudclimber_py_lib"
+version = "0.1.0"
+authors = [
+  { name="mudclimber", email="noreply@example.com" },
+]
+description = "Python tools for connecting agents to the mudclimber hub"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "grpcio >= 1.51.1",
+  "grpcio-tools >= 1.51.1",
+  "ansi >= 0.3.6",
+  "aiostream >= 0.4.5",
+  "protobuf >= 4.21.12",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mudclimber/py-lib"
+"Bug Tracker" = "https://github.com/mudclimber/py-lib/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
