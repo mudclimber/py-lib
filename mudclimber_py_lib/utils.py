@@ -1,4 +1,4 @@
-from protos import agents_pb2_grpc, agents_pb2
+from mudclimber_py_lib.protos import agents_pb2_grpc, agents_pb2
 import grpc
 import asyncio
 import typing as t
